@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 75px;
+}
+
+#app{
+    background: #6730EC;
+    margin: 100px 100px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+#eventName{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+#eventDate{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin: 0 10px;
+}
+
+#bAdd{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: #A9D2FF;
+}
+
+#bAdd:hover{
+    background: #7984EE;
+}
+
+#eventsContainer{
+    min-width: 120px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.event{ 
+    background: #D2F6FC;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.days{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nameEvent{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.dateEvent{
+    font-size: 20px;
+}
+
+.bDelete{
+    margin: 10px;
+    font-size: 15px;
+    background: #A9D2FF;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.bDelete:hover{
+    background: #7984EE;
+}
